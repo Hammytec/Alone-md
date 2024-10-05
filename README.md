@@ -11,7 +11,11 @@
 </p>
     <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Hammy-blue.svg?style=for-the-badge&logo=github"></a>
-     
+
+<p align="center">
+<a href="https://github.com/hammytec"><img title="Author" src="https://img.shields.io/badge/hammytec-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029Vagq4pN9hXEy6SpCDi0X"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/254737991043"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
+<p/>
+  
  # 𝗦𝘂𝗽𝗽𝗼𝗿𝘁
 
    <a href="https://chat.whatsapp.com/CJ19SPCM1F77r2i7B94ABK" target="_blank">
