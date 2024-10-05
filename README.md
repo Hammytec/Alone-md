@@ -15,6 +15,7 @@
 <p align="center">
 <a href="https://github.com/hammytec"><img title="Author" src="https://img.shields.io/badge/hammytec-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029Vagq4pN9hXEy6SpCDi0X"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/254737991043"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
+
   
  # 𝗦𝘂𝗽𝗽𝗼𝗿𝘁
 
@@ -24,11 +25,13 @@
     
    <a href="https://whatsapp.com/channel/0029Vagq4pN9hXEy6SpCDi0X" target="_blank">
     <img alt="CLICK HERE" src="https://img.shields.io/badge/ JOIN OUR WHATSAPP CHANNEL  -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" />
+    
 
   
 # 𝗙𝗼𝗿𝗸 𝗥𝗲𝗽𝗼
    <br>
 <a href='https://github.com/Hammytec/Alone-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=red&color=purple'/></a>
+
 
 # 𝗦𝗲𝘀𝘀𝗶𝗼𝗻
    <a href="https://alone-sessions.onrender.com"><img src="https://img.shields.io/badge/Pair%20session%20code-red" alt="𝗣𝗮𝗶𝗿𝗶𝗻𝗴" width="300"></a>
