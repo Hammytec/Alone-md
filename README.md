@@ -12,7 +12,7 @@
     <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Hammy-blue.svg?style=for-the-badge&logo=github"></a>
      
- # 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
+ # 𝗦𝘂𝗽𝗽𝗼𝗿𝘁
 
    <a href="https://chat.whatsapp.com/CJ19SPCM1F77r2i7B94ABK" target="_blank">
     <img alt="CLICK HERE" src="https://img.shields.io/badge/ JOIN OUR WHATSAPP GROUP  -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" />
