@@ -40,8 +40,8 @@
 # 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 👇
     
    <br>
-<a href='https://alone-sessions.onrender.com' target="_blank"><img alt='𝗣𝗮𝗶𝗿𝗶𝗻𝗴' src='https://img.shields.io/badge/𝗣𝗮𝗶𝗿𝗶𝗻𝗴-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=purple'/></a>
+<a href='https://alone-sessions.onrender.com' target="_blank"><img alt='𝗣𝗮𝗶𝗿𝗶𝗻𝗴' src='https://img.shields.io/badge/Pairing-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=purple'/></a>
 
    <br>
-<a href='https://alone-sessions.onrender.com' target="_blank"><img alt='𝗦𝗰𝗮𝗻 𝗤𝗿' src='https://img.shields.io/badge/𝗦𝗰𝗮𝗻 𝗤𝗿-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=red'/></a>
+<a href='https://alone-sessions.onrender.com' target="_blank"><img alt='𝗦𝗰𝗮𝗻 𝗤𝗿' src='https://img.shields.io/badge/Scan Qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=red'/></a>
 
