@@ -21,5 +21,17 @@
    <a href="https://chat.whatsapp.com/CJ19SPCM1F77r2i7B94ABK" target="_blank">
     <img alt="CLICK HERE" src="https://img.shields.io/badge/ JOIN OUR WHATSAPP GROUP  -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" />
     
+    
    <a href="https://whatsapp.com/channel/0029Vagq4pN9hXEy6SpCDi0X" target="_blank">
     <img alt="CLICK HERE" src="https://img.shields.io/badge/ JOIN OUR WHATSAPP CHANNEL  -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" />
+
+  
+# 𝗙𝗼𝗿𝗸 𝗥𝗲𝗽𝗼
+   <br>
+<a href='https://github.com/Hammytec/Alone-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=red&color=purple'/></a>
+
+# 𝗦𝗲𝘀𝘀𝗶𝗼𝗻
+   <a href="https://alone-sessions.onrender.com"><img src="https://img.shields.io/badge/Pair%20session%20code-red" alt="𝗣𝗮𝗶𝗿𝗶𝗻𝗴" width="300"></a>
+
+
+  <a href="https://alone-sessions.onrender.com"><img src="https://img.shields.io/badge/Pair%20session%20code-blue" alt="𝗦𝗰𝗮𝗻 𝗤𝗿" width="300"></a>
