@@ -17,8 +17,8 @@
 <p/>
 
   
- # 𝗦𝘂𝗽𝗽𝗼𝗿𝘁
-     👇
+ # 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 👇
+     
    <a href="https://chat.whatsapp.com/CJ19SPCM1F77r2i7B94ABK" target="_blank">
     <img alt="CLICK HERE" src="https://img.shields.io/badge/ JOIN OUR WHATSAPP GROUP  -25D366?style=for-the-badge&logo=whatsapp&logoColor=black" />
     
@@ -28,14 +28,14 @@
     
 
   
-# 𝗙𝗼𝗿𝗸 𝗥𝗲𝗽𝗼
-    👇
+# 𝗙𝗼𝗿𝗸 𝗥𝗲𝗽𝗼 👇
+    
    <br>
 <a href='https://github.com/Hammytec/Alone-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=red&color=blue'/></a>
 
 
-# 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 
-    👇
+# 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 👇
+    
    <br>
 <a href='https://alone-sessions.onrender.com' target="_blank"><img alt='𝗣𝗮𝗶𝗿𝗶𝗻𝗴' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=purple'/></a>
 
