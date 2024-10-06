@@ -1,6 +1,6 @@
 {
   "name":"ALONE-MD",
-  "description":"Best whatsapp bot developed by keithkeizzah",
+  "description":"Best whatsapp bot developed by Hammy",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/cScvH3k.jpeg"
   "repository":"https://github.com/hammytec/Alone-md",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.imgur.com/FQ6QOBp.jpeg",
+      "value":"https://i.imgur.com/cScvH3k.jpeg",
       "required":false
        
      },
