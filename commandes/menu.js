@@ -1,3 +1,6 @@
+
+
+
 const util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
@@ -6,68 +9,114 @@ const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
-const readmore = more.repeat(4001)
+const Taphere = more.repeat(4001)
+
 zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
     var mode = "public";
+    
     if ((s.MODE).toLocaleLowerCase() != "yes") {
         mode = "private";
-
+   
     }
-    cm.map(async (com, index) => {
+
+
+    
+ cm.map(async (com, index) => {
         if (!coms[com.categorie])
             coms[com.categorie] = [];
         coms[com.categorie].push(com.nomCom);
     });
-    moment.tz.setDefault('Africa/Nairobi');
-// Créer une date et une heure en GMT
+
+    moment.tz.setDefault("Africa/Nairobi");
+
+// Créer une date et une heure en EAT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
+
   let infoMsg =  `
-╭════〔 𝐀𝐋𝐎𝐍𝐄-𝐌𝐃 〕═══⊷⏣
-┃✣┏━━━━━━━━━━━━━━━━━♢
-┃✣┃ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
-┃✣┃ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
-┃✣┃ 𝗠𝗼𝗱𝗲 : *${mode}*
-┃✣┃ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝐇𝐀𝐌𝐌𝐘
-┃✣┃ 𝗥𝗮𝗺 : 𝟳𝟮 𝗚𝗕
-┃✣┃ 𝗗𝗮𝘁𝗲  : *${date}* 
-┃✣┃ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗟𝗶𝗻𝘂𝘅
-┃✣┃ 𝐑𝐮𝐧𝐭𝐢𝐦𝐞: ${run}
-┃✣┃
-┃✣┃   ▎▍▌▌▉▏▎▌▉▐▏▌
-┃✣┃   ▎▍▌▌▉▏▎▌▉▐▏▌
-┃✣┃        𝐀𝐋𝐎𝐍𝐄
-┃✣┗━━━━━━━━━━━━━━━━♢
-╰═════════════════⊷⏣
- ${ms.pushName} 𝐇𝐞𝐥𝐥𝐨,,𝗛𝗲𝗿𝗲 𝗶𝘀 𝗺𝘆 𝗺𝗲𝗻𝘂,𝗵𝗮𝘃𝗲 𝗳𝘂𝗻 🫠
-\n${readmore}`;   
-                    '┏━━━━━━━━━━━━━━━━━━♢
-    let menuMsg =     ' 𝐀𝐋𝐎𝐍𝐄 𝐂𝐌𝐃
-                    '┗━━━━━━━━━━━━━━━━━━♢`;
-    for (const cat in coms) {
-        menuMsg += `
-╭════「 *${cat}* 」═══⊷⏣ 
-┃┏━━━━━━━━━━━━━━━━♢
-┴┃ `;
-        for (const cmd of coms[cat]) {
-            menuMsg += `          
-┃┃❝ ${cmd}`    
-        } 
-        menuMsg +=`
-┬┃
-┃┗━━━━━━━━━━━━━━━━♢  
-╰════════════════⊷⏣`
-    }
-    menuMsg += `
-> 𝐀𝐋𝐎𝐍𝐄-𝐌𝐃\n
+
+ 👋 *Hello* : ${nomAuteurMessage} welcome to Cyberion V1 menu kindly read the plugin list before commanding the bot but remember that some commands are reserved for my owner.
+
+
+┏───────────────⊷
+┇ 『𝗠𝗔𝗜𝗡』
+┇  🌐 *Mode* : 【${mode}】
+┇  🔑 ignition : [${s.PREFIXE}]
+┇  📜 Plugins : [${cm.length}] 
+┇  ⌚️ *Time* : ${temps}
+┇  🖥️ System : 𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗩1
+┇  📰 Bot ID : VZ67IPO
+└────═━┈┈━═─────⊷
+┏────────────────⊷
+┇ 『𝗦𝗧𝗢𝗥𝗔𝗚𝗘』
+┇  📼 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+└─────═━┈┈━═─────⊷
+╭━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
+┇ 『𝗖𝗢𝗡𝗧』
+┇  🕵 *Dev* : 𝗖𝗔𝗥𝗟 𝗪𝗜𝗟𝗟𝗜𝗔𝗠
+┇  📱 *User* : ${s.OWNER_NAME}
+└▪︎─═━┈━═─ ═▪︎─═━┈━═─⊷
+╒═════════════════
+┇ 『𝗕𝗢𝗧 𝗦𝗧𝗔𝗧𝗨𝗦』
+┇  🛡️ Security : encrypted
+┇  📡 *Platform* : ${os.platform}
+┇  🗺️ Region : Kenya
+┇  ☋️ Version : [6.1.×]
+╘═════════════════  \n\n`;
+ 
+    let menuMsg=` 
+┌─────═━┈┈━═─═━┈┈━═─────⊷
+┇ 『𝗦𝗨𝗣𝗣𝗢𝗥𝗧』
+┇  🪀 Whatsapp:
+┇  ✪https://wa.me/254770954948
+┇  📥 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :
+┇  ⚉https://t.me.carlltecch
+┇  🟢 WACHANNEL :
+┇  ⚉https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h
+┇  🐈‍⬛ 𝗚𝗜𝗧𝗛𝗨𝗕1:
+┇  ⨀https://github.com/carl24tech 
+┇   𝗘𝗡𝗝𝗢𝗬 𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗩1
+└─────═━┈┈━═──═━┈┈━═────⊷
+
+
+
+╭───────────────────⊷❒
+│BOT COMMANDS❒⁠⁠⁠⁠
+│CYBERION V1❒⁠⁠
+⁠⁠⁠⁠╰───────────────────⊷❒
+> CARLTECH PROJECT 2024🎖
 `;
+
+    for (const cat in coms) {
+        menuMsg += `*╭────☆* *${cat}* *☆*`;
+        for (const cmd of coms[cat]) {
+            menuMsg += `  
+*●* ${cmd}`;
+        }
+        menuMsg += `
+*❒───────────────────❒* \n`
+    }
+
+    menuMsg += `
+           
+     
+
+   
+   *█✪█▓▓▓𝗖𝗔𝗥𝗟▓▓█✪█*
+   *█✪█▓▓▓𝗧𝗘𝗖𝗛▓▓█✪█*   
+          
+      *ᴄᴀʀʟᴛᴇᴄʜ 2024🏆* 
+*❒───────────────────❒*
+`;
+
    var lien = mybotpic();
+
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Alonemd*, déveloper Hammy" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -77,7 +126,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-       zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Alonemd*, déveloper Hammy" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*Ibrahim-tech*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -85,6 +134,9 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     }
 } 
 else {
+    
     repondre(infoMsg + menuMsg);
+    
 }
+
 });
