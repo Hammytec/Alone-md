@@ -14,7 +14,7 @@ module.exports = { session: process.env.SESSION_ID || 'Alone',
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'Alone md',
-    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/mzuuyy.jpg"
+    URL : process.env.BOT_MENU_LINKS || '"https://telegra.ph/file/c1ed53e574393e4b37586.jpg"
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
