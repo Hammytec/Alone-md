@@ -10,7 +10,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
   
 RUN git clone https://github.com/hammytec/Alone-md  /root/Zokou_BOt
-WORKDIR /root/Alone/
+WORKDIR /root/Zokou_BOt/
 
 
 COPY package.json .
