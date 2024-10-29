@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/hammytec/Alone-md  /root/Zokou_BOt
-WORKDIR /root/Zokou_BOt/
+RUN git clone https://github.com/hammytec/Alone-md  /root/ToshTech
+WORKDIR /toshtech/
 
 
 COPY package.json .
